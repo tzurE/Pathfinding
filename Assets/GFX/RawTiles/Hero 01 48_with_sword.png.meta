@@ -1,0 +1,1778 @@
+fileFormatVersion: 2
+guid: d1f859f13477add42a46c4fdfd6dfef5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2574334952387238612
+    second: Hero 01 48_with_sword_0
+  - first:
+      213: 7628371133762296237
+    second: Hero 01 48_with_sword_1
+  - first:
+      213: -1013085654352191155
+    second: Hero 01 48_with_sword_2
+  - first:
+      213: 5700724446808232035
+    second: Hero 01 48_with_sword_3
+  - first:
+      213: -5999878256612722335
+    second: Hero 01 48_with_sword_4
+  - first:
+      213: -763860046656765521
+    second: Hero 01 48_with_sword_5
+  - first:
+      213: 2056394489288926660
+    second: Hero 01 48_with_sword_6
+  - first:
+      213: -3781579707777342343
+    second: Hero 01 48_with_sword_7
+  - first:
+      213: -7789868187418422661
+    second: Hero 01 48_with_sword_8
+  - first:
+      213: -7678565302684816913
+    second: Hero 01 48_with_sword_9
+  - first:
+      213: -2150694476122802925
+    second: Hero 01 48_with_sword_10
+  - first:
+      213: -1200861529734254901
+    second: Hero 01 48_with_sword_11
+  - first:
+      213: -6391280597601902068
+    second: Hero 01 48_with_sword_12
+  - first:
+      213: 74140496013722994
+    second: Hero 01 48_with_sword_13
+  - first:
+      213: 2441979152495932311
+    second: Hero 01 48_with_sword_14
+  - first:
+      213: 1230893712098691077
+    second: Hero 01 48_with_sword_15
+  - first:
+      213: 6816025866000932863
+    second: Hero 01 48_with_sword_16
+  - first:
+      213: 6600556050789809572
+    second: Hero 01 48_with_sword_17
+  - first:
+      213: 6498843488104773915
+    second: Hero 01 48_with_sword_18
+  - first:
+      213: 2630719895440151906
+    second: Hero 01 48_with_sword_19
+  - first:
+      213: 5671752894347238500
+    second: Hero 01 48_with_sword_20
+  - first:
+      213: -9126038678096373399
+    second: Hero 01 48_with_sword_21
+  - first:
+      213: 6635034568203932411
+    second: Hero 01 48_with_sword_22
+  - first:
+      213: 6610683659260200351
+    second: Hero 01 48_with_sword_23
+  - first:
+      213: -7088733010255123291
+    second: Hero 01 48_with_sword_24
+  - first:
+      213: -6242384662701083934
+    second: Hero 01 48_with_sword_25
+  - first:
+      213: -6198534742501152807
+    second: Hero 01 48_with_sword_26
+  - first:
+      213: 1798000149128806949
+    second: Hero 01 48_with_sword_27
+  - first:
+      213: 335203954683674353
+    second: Hero 01 48_with_sword_28
+  - first:
+      213: 2028874127698647800
+    second: Hero 01 48_with_sword_29
+  - first:
+      213: 2897837936453899832
+    second: Hero 01 48_with_sword_30
+  - first:
+      213: 3432459966469368821
+    second: Hero 01 48_with_sword_31
+  - first:
+      213: -2353944718240928925
+    second: Hero 01 48_with_sword_32
+  - first:
+      213: 4142818507812734305
+    second: Hero 01 48_with_sword_33
+  - first:
+      213: 786740808295239331
+    second: Hero 01 48_with_sword_34
+  - first:
+      213: -6973925952332900143
+    second: Hero 01 48_with_sword_35
+  - first:
+      213: -1549373596756767616
+    second: Hero 01 48_with_sword_36
+  - first:
+      213: 3813700813645743093
+    second: Hero 01 48_with_sword_37
+  - first:
+      213: -6505013320277509675
+    second: Hero 01 48_with_sword_38
+  - first:
+      213: 4809880179849118690
+    second: Hero 01 48_with_sword_39
+  - first:
+      213: -2714291390050072335
+    second: Hero 01 48_with_sword_40
+  - first:
+      213: 7163265954909952191
+    second: Hero 01 48_with_sword_41
+  - first:
+      213: 7292088695689350151
+    second: Hero 01 48_with_sword_42
+  - first:
+      213: 2696684126570931265
+    second: Hero 01 48_with_sword_43
+  - first:
+      213: -4814587624467505502
+    second: Hero 01 48_with_sword_44
+  - first:
+      213: 5599295509135973191
+    second: Hero 01 48_with_sword_45
+  - first:
+      213: 1867559472089146289
+    second: Hero 01 48_with_sword_46
+  - first:
+      213: 8261824224953159882
+    second: Hero 01 48_with_sword_47
+  - first:
+      213: -4913551769910884128
+    second: Hero 01 48_with_sword_48
+  - first:
+      213: -543597626301622337
+    second: Hero 01 48_with_sword_49
+  - first:
+      213: 1358079882806864174
+    second: Hero 01 48_with_sword_50
+  - first:
+      213: -8317451286980460381
+    second: Hero 01 48_with_sword_51
+  - first:
+      213: -1054171987627401062
+    second: Hero 01 48_with_sword_52
+  - first:
+      213: 1682543782185026685
+    second: Hero 01 48_with_sword_53
+  - first:
+      213: 5882649029193517030
+    second: Hero 01 48_with_sword_54
+  - first:
+      213: 5998046459116462348
+    second: Hero 01 48_with_sword_55
+  - first:
+      213: -6693634975273490710
+    second: Hero 01 48_with_sword_56
+  - first:
+      213: 6336110465914186154
+    second: Hero 01 48_with_sword_57
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25261e0000264cd0800000000000000
+      internalID: -2574334952387238612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 720
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9deba112b6dd960800000000000000
+      internalID: 7628371133762296237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 720
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d412b4507fbc0f1f0800000000000000
+      internalID: -1013085654352191155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 720
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360d36e3eaa0d1f40800000000000000
+      internalID: 5700724446808232035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b721fc1f724d4e390800000000000000
+      internalID: -7789868187418422661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 672
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9e4dc3a81407590800000000000000
+      internalID: -7678565302684816913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3153e42d4c23722e0800000000000000
+      internalID: -2150694476122802925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 672
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcee1c71dcea55fe0800000000000000
+      internalID: -1200861529734254901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 690
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02a710b82c9d47a0800000000000000
+      internalID: -6391280597601902068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 687
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2758e586366670100800000000000000
+      internalID: 74140496013722994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_14
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 687
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793fd6dd917a3e120800000000000000
+      internalID: 2441979152495932311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_15
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 690
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50887e14f43051110800000000000000
+      internalID: 1230893712098691077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff1cda8963679e50800000000000000
+      internalID: 6816025866000932863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 624
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adb167c1c2e99b50800000000000000
+      internalID: 6600556050789809572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 624
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19785758b7803a50800000000000000
+      internalID: 6498843488104773915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 624
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26553478ec1328420800000000000000
+      internalID: 2630719895440151906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 615
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c5c59053d16be40800000000000000
+      internalID: 5671752894347238500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 612
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96917919c2cc95180800000000000000
+      internalID: -9126038678096373399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_22
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 612
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf29b3e29c0641c50800000000000000
+      internalID: 6635034568203932411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_23
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 615
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f950fa063cdddbb50800000000000000
+      internalID: 6610683659260200351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac682882e2cf9d90800000000000000
+      internalID: -7088733010255123291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 576
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2fa5c09389e59a0800000000000000
+      internalID: -6242384662701083934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d72d413e716af9a0800000000000000
+      internalID: -6198534742501152807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 576
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5220ce20c97c3f810800000000000000
+      internalID: 1798000149128806949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ba75020cb155fd0800000000000000
+      internalID: -2353944718240928925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_33
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 528
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1658717bb7f3e7930800000000000000
+      internalID: 4142818507812734305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 528
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aecdb8c8901bea00800000000000000
+      internalID: 786740808295239331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_35
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 528
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8d159bb43a73f90800000000000000
+      internalID: -6973925952332900143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_39
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 519
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3491c2a8020c240800000000000000
+      internalID: 4809880179849118690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f80a279c56e45ad0800000000000000
+      internalID: -2714291390050072335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 480
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb89e02fe68096360800000000000000
+      internalID: 7163265954909952191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c84399804b23560800000000000000
+      internalID: 7292088695689350151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_43
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 480
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144e1bbeceb8c6520800000000000000
+      internalID: 2696684126570931265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e848f8c2be8fcbb0800000000000000
+      internalID: -4913551769910884128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_51
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 432
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a00aea4f1a729c80800000000000000
+      internalID: -8317451286980460381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 417
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a902d499924de51f0800000000000000
+      internalID: -1054171987627401062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_53
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 414
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d744e28c7a8995710800000000000000
+      internalID: 1682543782185026685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae661b2547e6b13a0800000000000000
+      internalID: -6693634975273490710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 519
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf3e37c071fa8e4c85ddfde3f462028
+      internalID: -1002680696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_37
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 516
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6662dcd68dd5641bc70434c16ecf21
+      internalID: 140054698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_38
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 516
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba0013d64c0ac84f9be1df0fcaf899d
+      internalID: -1825249795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_49
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 432
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7d203dc0ae61b48a8e0713d9b459e5
+      internalID: 1802271979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19e8a280d63f9145bf097c9d0e6bd6f
+      internalID: 1015350131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_54
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 414
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2550f3e673a43d469d8c1c4ca98c3fe
+      internalID: 2127857158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_55
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 417
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4e7a60b182b264ca8f6dfcd1c0b604
+      internalID: 318472960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_57
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501deb098af94e74186f0d3ba1baf22f
+      internalID: -809449890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_58
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a293d4837794674a907bbe0bab6c853
+      internalID: 1160964652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_59
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a634d2eff29a8ab409231d25f21581cd
+      internalID: 1731033098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f7afd2b791bc942bdd9312f1f80afe
+      internalID: -116797157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_65
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 48
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999ded33ef1519149b19d03c33573a96
+      internalID: 1019864253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_67
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 304
+        width: 71
+        height: 80
+      alignment: 9
+      pivot: {x: 0.66752326, y: 0.69381106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26eb8ca58f062ef45b4881451e9f8137
+      internalID: 292789890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 300
+        width: 86
+        height: 84
+      alignment: 9
+      pivot: {x: 0.2851346, y: 0.7098668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8440491e1bd8de846afd05f95331965b
+      internalID: -1135709262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_70
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 302
+        width: 87
+        height: 82
+      alignment: 9
+      pivot: {x: 0.21192284, y: 0.709805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ee25e465966df4bafceab6dfd3f0dd
+      internalID: 819734088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_82
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 192
+        width: 81
+        height: 65
+      alignment: 9
+      pivot: {x: 0.26408353, y: 0.43749884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d13e0651c86bb64eafdf1bdcc8e06af
+      internalID: -721915824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_84
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 93
+        height: 78
+      alignment: 9
+      pivot: {x: 0.25893024, y: 0.3630371}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102aca2eb447dc144a20524f4ac0a757
+      internalID: -1602607354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_87
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 192
+        width: 84
+        height: 84
+      alignment: 9
+      pivot: {x: 0.7507775, y: 0.34057727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07eb9792c9172c242aee64bb2c42e3bd
+      internalID: -1897143868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_88
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 192
+        width: 90
+        height: 66
+      alignment: 9
+      pivot: {x: 0.77123314, y: 0.43424663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587d4ccca878e0e41986470bde4aeb42
+      internalID: 1809898795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 48
+        height: 87
+      alignment: 9
+      pivot: {x: 0.5334668, y: 0.7359349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b6ec57cfcb9994dbfc377bcc195c1a
+      internalID: -1645204849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_91
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 112
+        width: 72
+        height: 77
+      alignment: 9
+      pivot: {x: 0.27810776, y: 0.709344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3d50c300402164589f8d622ad54431
+      internalID: -1504758269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_99
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 96
+        width: 84
+        height: 75
+      alignment: 9
+      pivot: {x: 0.30620685, y: 0.3770103}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc178c16ed7a06469adf35a7f56d637
+      internalID: 1822507946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_101
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 96
+        width: 83
+        height: 87
+      alignment: 9
+      pivot: {x: 0.31264266, y: 0.32957038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcf533a7c7131f4092efc2049a7da9e
+      internalID: 1046721200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_107
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 27
+        width: 82
+        height: 66
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd2cad398bdb644bb2e9d4cb02edd49
+      internalID: -1409371981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_108
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 6
+        width: 92
+        height: 87
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6c39d92dc57f6498251ae7947fcdcb
+      internalID: -1537916375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_109
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 87
+      alignment: 9
+      pivot: {x: 0.4670105, y: 0.3235892}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba4bf5d53c66d348809287a58d62b39
+      internalID: 992014966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero 01 48_with_sword_111
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7dd0c798bd3b643a1868528371af50
+      internalID: 1513056532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Hero 01 48_with_sword_0: -2574334952387238612
+      Hero 01 48_with_sword_1: 7628371133762296237
+      Hero 01 48_with_sword_10: -2150694476122802925
+      Hero 01 48_with_sword_100: -1059980766
+      Hero 01 48_with_sword_101: 1046721200
+      Hero 01 48_with_sword_102: -355171920
+      Hero 01 48_with_sword_103: 1464079720
+      Hero 01 48_with_sword_104: 758982678
+      Hero 01 48_with_sword_105: 134034136
+      Hero 01 48_with_sword_106: 30732035
+      Hero 01 48_with_sword_107: -1409371981
+      Hero 01 48_with_sword_108: -1537916375
+      Hero 01 48_with_sword_109: 992014966
+      Hero 01 48_with_sword_11: -1200861529734254901
+      Hero 01 48_with_sword_110: -1926169432
+      Hero 01 48_with_sword_111: 1513056532
+      Hero 01 48_with_sword_112: -663290957
+      Hero 01 48_with_sword_113: 1292097780
+      Hero 01 48_with_sword_114: 1047259528
+      Hero 01 48_with_sword_115: 280290974
+      Hero 01 48_with_sword_12: -6391280597601902068
+      Hero 01 48_with_sword_13: 74140496013722994
+      Hero 01 48_with_sword_14: 2441979152495932311
+      Hero 01 48_with_sword_15: 1230893712098691077
+      Hero 01 48_with_sword_16: 6816025866000932863
+      Hero 01 48_with_sword_17: 6600556050789809572
+      Hero 01 48_with_sword_18: 6498843488104773915
+      Hero 01 48_with_sword_19: 2630719895440151906
+      Hero 01 48_with_sword_2: -1013085654352191155
+      Hero 01 48_with_sword_20: 5671752894347238500
+      Hero 01 48_with_sword_21: -9126038678096373399
+      Hero 01 48_with_sword_22: 6635034568203932411
+      Hero 01 48_with_sword_23: 6610683659260200351
+      Hero 01 48_with_sword_24: -7088733010255123291
+      Hero 01 48_with_sword_25: -6242384662701083934
+      Hero 01 48_with_sword_26: -6198534742501152807
+      Hero 01 48_with_sword_27: 1798000149128806949
+      Hero 01 48_with_sword_28: 335203954683674353
+      Hero 01 48_with_sword_29: 2028874127698647800
+      Hero 01 48_with_sword_3: 5700724446808232035
+      Hero 01 48_with_sword_30: 2897837936453899832
+      Hero 01 48_with_sword_31: 3432459966469368821
+      Hero 01 48_with_sword_32: -2353944718240928925
+      Hero 01 48_with_sword_33: 4142818507812734305
+      Hero 01 48_with_sword_34: 786740808295239331
+      Hero 01 48_with_sword_35: -6973925952332900143
+      Hero 01 48_with_sword_36: -1002680696
+      Hero 01 48_with_sword_37: 140054698
+      Hero 01 48_with_sword_38: -1825249795
+      Hero 01 48_with_sword_39: 4809880179849118690
+      Hero 01 48_with_sword_4: -5999878256612722335
+      Hero 01 48_with_sword_40: -2714291390050072335
+      Hero 01 48_with_sword_41: 7163265954909952191
+      Hero 01 48_with_sword_42: 7292088695689350151
+      Hero 01 48_with_sword_43: 2696684126570931265
+      Hero 01 48_with_sword_44: -4814587624467505502
+      Hero 01 48_with_sword_45: 5599295509135973191
+      Hero 01 48_with_sword_46: 1867559472089146289
+      Hero 01 48_with_sword_47: 995833020
+      Hero 01 48_with_sword_48: -4913551769910884128
+      Hero 01 48_with_sword_49: 1802271979
+      Hero 01 48_with_sword_5: -763860046656765521
+      Hero 01 48_with_sword_50: 1015350131
+      Hero 01 48_with_sword_51: -8317451286980460381
+      Hero 01 48_with_sword_52: -1054171987627401062
+      Hero 01 48_with_sword_53: 1682543782185026685
+      Hero 01 48_with_sword_54: 2127857158
+      Hero 01 48_with_sword_55: 318472960
+      Hero 01 48_with_sword_56: -6693634975273490710
+      Hero 01 48_with_sword_57: -809449890
+      Hero 01 48_with_sword_58: 1160964652
+      Hero 01 48_with_sword_59: 1731033098
+      Hero 01 48_with_sword_6: 2056394489288926660
+      Hero 01 48_with_sword_60: 775884088
+      Hero 01 48_with_sword_61: 1885707523
+      Hero 01 48_with_sword_62: -797217416
+      Hero 01 48_with_sword_63: -623127320
+      Hero 01 48_with_sword_64: -116797157
+      Hero 01 48_with_sword_65: 1019864253
+      Hero 01 48_with_sword_66: -1215412344
+      Hero 01 48_with_sword_67: 292789890
+      Hero 01 48_with_sword_68: -1135709262
+      Hero 01 48_with_sword_69: 942392941
+      Hero 01 48_with_sword_7: -3781579707777342343
+      Hero 01 48_with_sword_70: 819734088
+      Hero 01 48_with_sword_71: 1869770766
+      Hero 01 48_with_sword_72: 165915069
+      Hero 01 48_with_sword_73: -1182373159
+      Hero 01 48_with_sword_74: -164946937
+      Hero 01 48_with_sword_75: -1096154643
+      Hero 01 48_with_sword_76: 1981262579
+      Hero 01 48_with_sword_77: -895148906
+      Hero 01 48_with_sword_78: -1909702707
+      Hero 01 48_with_sword_79: -93279852
+      Hero 01 48_with_sword_8: -7789868187418422661
+      Hero 01 48_with_sword_80: 1644722659
+      Hero 01 48_with_sword_81: -1008773080
+      Hero 01 48_with_sword_82: -721915824
+      Hero 01 48_with_sword_83: 2142564860
+      Hero 01 48_with_sword_84: -1602607354
+      Hero 01 48_with_sword_85: 320285422
+      Hero 01 48_with_sword_86: 2107318037
+      Hero 01 48_with_sword_87: -1897143868
+      Hero 01 48_with_sword_88: 1809898795
+      Hero 01 48_with_sword_89: -1213353100
+      Hero 01 48_with_sword_9: -7678565302684816913
+      Hero 01 48_with_sword_90: -1645204849
+      Hero 01 48_with_sword_91: -1504758269
+      Hero 01 48_with_sword_92: -1231313806
+      Hero 01 48_with_sword_93: 585692697
+      Hero 01 48_with_sword_94: -1675269940
+      Hero 01 48_with_sword_95: -877228328
+      Hero 01 48_with_sword_96: -1634598984
+      Hero 01 48_with_sword_97: 749167533
+      Hero 01 48_with_sword_98: -710739156
+      Hero 01 48_with_sword_99: 1822507946
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
