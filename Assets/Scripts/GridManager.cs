@@ -9,10 +9,13 @@ public class GridManager : MonoBehaviour
 
     [SerializeField] private int height;
     [SerializeField] private int width;
-    private int[,] gridArray;
+    public Tile[,] gridArray;
     
     public Tile tilePrefab;
     public Transform tileParent;
+
+    public GameObject heroPrefab;
+    public GameObject targetPrefab;
 
     [SerializeField] private Transform cam;
 
@@ -43,9 +46,20 @@ public class GridManager : MonoBehaviour
             {
                 Tile spawnedTile = Instantiate(tilePrefab ,new Vector3(x, y), Quaternion.identity, tileParent);
                 spawnedTile.name = $"Tile {x}, {y}";
+                spawnedTile.x = x;
+                spawnedTile.y = y;
+                gridArray[x, y] = spawnedTile;
+                if (x == 4  && y == 11)
+                {
+                    GameObject _hero = Instantiate(heroPrefab, spawnedTile.transform, false);
+                    spawnedTile.GetComponent<Tile>().isHeroOnTile = true;
+                }
+                else if (x == 27 && y == 11)
+                {
+                    GameObject _target = Instantiate(targetPrefab, spawnedTile.transform, false);
+                    spawnedTile.GetComponent<Tile>().isTargetOnTile = true;
+                }
 
-                //bool isOffset = (x % 2 == 0 && y % 2 != 0) || (x % 2 != 0 && y % 2 == 0);
-                //spawnedTile.Init(isOffset);
             }
         }
 
@@ -54,8 +68,14 @@ public class GridManager : MonoBehaviour
 
     void Start()
     {
+        gridArray = new Tile[width, height];
         cam = Camera.main.transform;
         GenerateGrid();
+    }
+
+    public void SetTileValue(int x, int y, Tile value)
+    {
+
     }
 
     public void SpawnGroundTile()
