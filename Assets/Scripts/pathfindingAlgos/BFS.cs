@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
+using UnityEngine;
 
 public class Node
 {
@@ -15,37 +17,76 @@ public class Node
     }
 }
 
-public class BFS
+class NodeEqualityComparer : IEqualityComparer<Node>
 {
-    private int distance = 1;
-
-    public static List<Node> GetShortestPath(Tile startTile, Tile endTile)
+    public bool Equals(Node b1, Node b2)
     {
+        if (b2 == null && b1 == null)
+            return true;
+        else if (b1 == null || b2 == null)
+            return false;
+        else if (b1.x == b2.x && b1.y == b2.y)
+            return true;
+        else
+            return false;
+    }
+
+    public int GetHashCode(Node bx)
+    {
+        int hCode = bx.x ^ bx.y;
+        return hCode.GetHashCode();
+    }
+}
+
+public class BFS: MonoBehaviour
+{
+    private static int distance = 1;
+    private static string blockedTile = "wall";
+
+    //public static List<Node> GetShortestPath(Tile startTile, Tile endTile)
+    public static IEnumerator GetShortestPath(Tile startTile, Tile endTile)
+    {
+        GridManager gridManager = GridManager.Instance;
         Queue<Node> queue = new Queue<Node>();
-        HashSet<Node> visited = new HashSet<Node>();
+        NodeEqualityComparer NodeEqC = new NodeEqualityComparer();
+        HashSet<Node> visited = new HashSet<Node>(NodeEqC);
+        List<Node> path = new List<Node>();
+        List<Tile> tilePath = new List<Tile>();
+        startTile.markAsDiscovered();
+        yield return new WaitForSeconds(0.2f);
 
         // add starting node to queue and visited set
         Node startNode = new Node(startTile.x, startTile.y, 0, null);
         queue.Enqueue(startNode);
         visited.Add(startNode);
+        bool found = false;
 
-        while (queue.Count > 0)
+        while (queue.Count > 0 && !found)
         {
             // get next node from queue
             Node currentNode = queue.Dequeue();
+            gridManager.gridArray[currentNode.x, currentNode.y].markAsCalculated();
+            yield return new WaitForSeconds(0.0001f);
 
             // check if we've reached the end node
             if (currentNode.x == endTile.x && currentNode.y == endTile.y)
             {
                 // backtrack through parents to get path
-                List<Node> path = new List<Node>();
                 while (currentNode != null)
                 {
                     path.Add(currentNode);
                     currentNode = currentNode.parent;
                 }
                 path.Reverse();
-                return path;
+                for(int i = 0; i < path.Count; i++)
+                {
+                    Tile tile = GridManager.Instance.gridArray[path[i].x, path[i].y];
+                    tile.markHighlightPath();
+                    tilePath.Add(tile);
+                }
+                found = true;
+                GridManager.Instance.correctPath = tilePath;
+                break;
             }
 
             // check adjacent nodes
@@ -55,15 +96,17 @@ public class BFS
             {
                 int nextX = currentNode.x + dx[i];
                 int nextY = currentNode.y + dy[i];
-
+                //yield return new WaitForSeconds(0.00001f);
                 // check if the next node is within bounds and not blocked
-                if (nextX >= 0 && nextX < rows && nextY >= 0 && nextY < cols && grid[nextX, nextY] == 0)
+                if (nextX >= 0 && nextX < gridManager.width && nextY >= 0 && nextY < gridManager.height && gridManager.gridArray[nextX, nextY].tag != blockedTile)
                 {
-                    Node nextNode = new Node(nextX, nextY, currentNode.distance + 1, currentNode);
+                    Tile nextTile = gridManager.gridArray[nextX, nextY];
+                    Node nextNode = new Node(nextX, nextY, currentNode.distance + distance, currentNode);
 
                     // check if we've already visited this node
                     if (!visited.Contains(nextNode))
                     {
+                        nextTile.markAsDiscovered();
                         queue.Enqueue(nextNode);
                         visited.Add(nextNode);
                     }
@@ -72,19 +115,7 @@ public class BFS
         }
 
         // no path found
-        return null;
+        yield return null;
 
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

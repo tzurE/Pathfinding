@@ -9,6 +9,7 @@ public class Tile : MonoBehaviour
     [SerializeField] private List<Sprite> walkableTileToChoose;
     [SerializeField] private List<Sprite> wallTileToChoose;
     [SerializeField] private GameObject hightlight;
+    [SerializeField] private GameObject hightlightPath;
     [SerializeField] private Color discoverColor, calculatedColor, originalColor;
 
     public bool isHeroOnTile = false;
@@ -23,6 +24,11 @@ public class Tile : MonoBehaviour
         originalColor = spriteRenderer.color;
     }
 
+    public void markAsCalculated()
+    {
+        spriteRenderer.color = calculatedColor;
+    }
+
     public void markAsDiscovered()
     {
         spriteRenderer.color = discoverColor;
@@ -31,6 +37,16 @@ public class Tile : MonoBehaviour
     public void markNotDiscovered()
     {
         spriteRenderer.color = originalColor;
+    }
+
+    public void markHighlightPath()
+    {
+        hightlightPath.SetActive(true);
+    }
+
+    public void unMarkHighlightPath()
+    {
+        hightlightPath.SetActive(false);
     }
 
     private void OnMouseEnter()

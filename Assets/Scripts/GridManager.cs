@@ -7,14 +7,22 @@ public class GridManager : MonoBehaviour
 
     public static GridManager Instance { get; private set; }
 
-    [SerializeField] private int height;
-    [SerializeField] private int width;
+    public int height;
+    public int width;
     public Tile[,] gridArray;
+    public List<Tile> correctPath;
     
     public Tile tilePrefab;
+    public Tile heroStartingTile;
+    public Tile targetTile;
     public Transform tileParent;
 
+    public bool heroMoving = false;
+
+
     public GameObject heroPrefab;
+    private GameObject _hero;
+    private GameObject _target;
     public GameObject targetPrefab;
 
     [SerializeField] private Transform cam;
@@ -51,13 +59,15 @@ public class GridManager : MonoBehaviour
                 gridArray[x, y] = spawnedTile;
                 if (x == 4  && y == 11)
                 {
-                    GameObject _hero = Instantiate(heroPrefab, spawnedTile.transform, false);
+                    _hero = Instantiate(heroPrefab, new Vector3(x-0.5f, y+0.5f), Quaternion.identity);
                     spawnedTile.GetComponent<Tile>().isHeroOnTile = true;
+                    heroStartingTile = spawnedTile;
                 }
                 else if (x == 27 && y == 11)
                 {
-                    GameObject _target = Instantiate(targetPrefab, spawnedTile.transform, false);
+                    _target = Instantiate(targetPrefab, new Vector3(x, y), Quaternion.identity);
                     spawnedTile.GetComponent<Tile>().isTargetOnTile = true;
+                    targetTile = spawnedTile;
                 }
 
             }
@@ -70,6 +80,7 @@ public class GridManager : MonoBehaviour
     {
         gridArray = new Tile[width, height];
         cam = Camera.main.transform;
+        correctPath = new List<Tile>();
         GenerateGrid();
     }
 
@@ -99,10 +110,29 @@ public class GridManager : MonoBehaviour
         spawnWallTile = false;
     }
 
+    public IEnumerator CalculateBFSCo()
+    {
+        CoroutineWithData c = new CoroutineWithData(this, BFS.GetShortestPath(heroStartingTile, targetTile));
+        yield return c.coroutine;
+        List<Node> path = (List < Node > )c.result;
+        Debug.Log(path);
+        //List<Node> path = BFS.GetShortestPath(gridArray[4, 11], gridArray[27, 11]);
+    }
+
+    public void CalculateBFS()
+    {
+        StartCoroutine(CalculateBFSCo());
+    }
+
     // Update is called once per frame
     void Update()
     {
-
+        if (correctPath.Count != 0 && !heroMoving)
+        {
+            _hero.GetComponent<Hero>().nextTileIndex = 1;
+            _hero.GetComponent<Hero>().moveToTarget = true;
+            heroMoving = true;
+        }
     }
 
 }

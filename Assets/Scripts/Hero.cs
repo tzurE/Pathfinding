@@ -6,9 +6,10 @@ public class Hero : MonoBehaviour
 {
     private GridManager gridManager;
     private Tile currentTile;
-
-    int[] dx = { -1, 0, 1, 0 };
-    int[] dy = { 0, 1, 0, -1 };
+    public Rigidbody2D myRigidBody;
+    public bool moveToTarget;
+    public int nextTileIndex;
+    Vector3 fixDist = new Vector3(-0.5f, 0.5f);
 
 
     // Start is called before the first frame update
@@ -16,23 +17,29 @@ public class Hero : MonoBehaviour
     {
         gridManager = GridManager.Instance;
         currentTile = gridManager.gridArray[4, 11];
-        StartCoroutine(LookAtChildTiles());
-    }
-
-    IEnumerator LookAtChildTiles()
-    {
-        for (int i = 0; i < 4; i++)
-        {
-            int nextX = currentTile.x + dx[i];
-            int nextY = currentTile.y + dy[i];
-            gridManager.gridArray[nextX, nextY].markAsDiscovered();
-            yield return new WaitForSeconds(1f);
-        }
+        myRigidBody = GetComponent<Rigidbody2D>();
+        moveToTarget = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (moveToTarget)
+        {
+            Tile nextTile = gridManager.correctPath[nextTileIndex];
+            if (Vector2.Distance(this.transform.position, nextTile.transform.position+fixDist) < 0.2 && nextTile != gridManager.targetTile)
+            {
+                nextTileIndex++;
+            }
+            else if (nextTile == gridManager.targetTile)
+            {
+                moveToTarget = false;
+            }
+            else
+            {
+                Vector3 change = (nextTile.transform.position + fixDist) - transform.position;
+                myRigidBody.MovePosition(transform.position + change.normalized * 3 * Time.fixedDeltaTime);
+            }
+        }
     }
 }
