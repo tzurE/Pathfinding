@@ -47,6 +47,9 @@ public class BFS: MonoBehaviour
     public static IEnumerator GetShortestPath(Tile startTile, Tile endTile)
     {
         GridManager gridManager = GridManager.Instance;
+        gridManager.tileDict.Clear();
+        gridManager.correctPath.Clear();
+        gridManager.heroMoving = false;
         Queue<Node> queue = new Queue<Node>();
         NodeEqualityComparer NodeEqC = new NodeEqualityComparer();
         HashSet<Node> visited = new HashSet<Node>(NodeEqC);
@@ -83,8 +86,10 @@ public class BFS: MonoBehaviour
                     Tile tile = GridManager.Instance.gridArray[path[i].x, path[i].y];
                     tile.markHighlightPath();
                     tilePath.Add(tile);
+                    GridManager.Instance.tileDict.Add((tile.x, tile.y), tile);
                 }
                 found = true;
+                GridManager.Instance.CleanGridWithoutPath();
                 GridManager.Instance.correctPath = tilePath;
                 break;
             }
@@ -107,6 +112,7 @@ public class BFS: MonoBehaviour
                     if (!visited.Contains(nextNode))
                     {
                         nextTile.markAsDiscovered();
+                        nextTile.textOnTile.SetText(nextNode.distance.ToString());
                         queue.Enqueue(nextNode);
                         visited.Add(nextNode);
                     }

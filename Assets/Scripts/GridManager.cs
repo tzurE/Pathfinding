@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GridManager : MonoBehaviour
 {
@@ -11,9 +12,11 @@ public class GridManager : MonoBehaviour
     public int width;
     public Tile[,] gridArray;
     public List<Tile> correctPath;
+    public Dictionary<(int, int), Tile> tileDict = new Dictionary<(int, int), Tile>();
+    public float cellSize;
     
     public Tile tilePrefab;
-    public Tile heroStartingTile;
+    public Tile heroTile;
     public Tile targetTile;
     public Transform tileParent;
 
@@ -21,8 +24,8 @@ public class GridManager : MonoBehaviour
 
 
     public GameObject heroPrefab;
-    private GameObject _hero;
-    private GameObject _target;
+    public GameObject _hero;
+    public GameObject _target;
     public GameObject targetPrefab;
 
     [SerializeField] private Transform cam;
@@ -30,6 +33,10 @@ public class GridManager : MonoBehaviour
     public bool spawnGrassTile = true;
     public bool spawnGroundTile = false;
     public bool spawnWallTile = false;
+    public bool spawnHero = false;
+    public bool spawnTarget = false;
+
+    public string blockedTile = "wall";
 
 
     private void Awake()
@@ -61,7 +68,7 @@ public class GridManager : MonoBehaviour
                 {
                     _hero = Instantiate(heroPrefab, new Vector3(x-0.5f, y+0.5f), Quaternion.identity);
                     spawnedTile.GetComponent<Tile>().isHeroOnTile = true;
-                    heroStartingTile = spawnedTile;
+                    heroTile = spawnedTile;
                 }
                 else if (x == 27 && y == 11)
                 {
@@ -81,13 +88,28 @@ public class GridManager : MonoBehaviour
         gridArray = new Tile[width, height];
         cam = Camera.main.transform;
         correctPath = new List<Tile>();
+        cellSize = 1;
         GenerateGrid();
     }
 
-    public void SetTileValue(int x, int y, Tile value)
+    public Vector3 getWorldPosition(int x, int y)
+    {
+        return new Vector3(x, y) * cellSize;
+    } 
+
+    public void SetValue(Vector3 worldPosition, int value)
     {
 
     }
+
+    public void SetValue(int x, int y, Tile tile)
+    {
+        if (x >= 0 && y >= 0 && x < width && y < height)
+        {
+            gridArray[x, y] = tile;
+        }
+    }
+
 
     public void SpawnGroundTile()
     {
@@ -110,18 +132,48 @@ public class GridManager : MonoBehaviour
         spawnWallTile = false;
     }
 
+    public void MoveHero()
+    {
+        spawnHero = true;
+    }
+
+    public void MoveTarget()
+    {
+        spawnTarget = true;
+    }
+
     public IEnumerator CalculateBFSCo()
     {
-        CoroutineWithData c = new CoroutineWithData(this, BFS.GetShortestPath(heroStartingTile, targetTile));
+        CoroutineWithData c = new CoroutineWithData(this, BFS.GetShortestPath(heroTile, targetTile));
         yield return c.coroutine;
         List<Node> path = (List < Node > )c.result;
-        Debug.Log(path);
-        //List<Node> path = BFS.GetShortestPath(gridArray[4, 11], gridArray[27, 11]);
+    }
+
+    public IEnumerator CalculateAStarCo()
+    {
+        CoroutineWithData c = new CoroutineWithData(this, AStar.FindShortestPath(heroTile, targetTile));
+        yield return c.coroutine;
     }
 
     public void CalculateBFS()
     {
         StartCoroutine(CalculateBFSCo());
+    }
+
+    public IEnumerator CalculateDFSCo()
+    {
+        CoroutineWithData c = new CoroutineWithData(this, DFS.FindShortestPath(heroTile, targetTile));
+        yield return c.coroutine;
+    }
+
+    public void CalculateDFS()
+    {
+        StartCoroutine(CalculateDFSCo());
+    }
+
+    public void CalculateAStar()
+    {
+        StartCoroutine(CalculateAStarCo());
     }
 
     // Update is called once per frame
@@ -133,6 +185,57 @@ public class GridManager : MonoBehaviour
             _hero.GetComponent<Hero>().moveToTarget = true;
             heroMoving = true;
         }
+    }
+
+    public void resetScene()
+    {
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.name);
+    }
+
+    public void CleanGridWithoutPath()
+    {
+        for (int x = 0; x < width; x++)
+        {
+            for (int y = 0; y < height; y++)
+            {
+                if (!tileDict.ContainsKey((x, y)))
+                {
+                    gridArray[x, y].markNotDiscovered();
+                }
+            }
+        }
+                
+    }
+
+    public void ClearGrid()
+    {
+        heroTile.isHeroOnTile = false;
+        targetTile.isTargetOnTile = false;
+        Destroy(_hero);
+        Destroy(_target);
+        for (int x = 0; x < width; x++)
+        {
+            for (int y = 0; y < height; y++)
+            {
+                gridArray[x,y].markNotDiscovered();
+                gridArray[x, y].textOnTile.SetText("");
+                gridArray[x, y].unMarkHighlightPath();
+                if (x == 4 && y == 11)
+                {
+                    _hero = Instantiate(heroPrefab, new Vector3(x - 0.5f, y + 0.5f), Quaternion.identity);
+                    gridArray[x, y].GetComponent<Tile>().isHeroOnTile = true;
+                    heroTile = gridArray[x, y];
+                }
+                else if (x == 27 && y == 11)
+                {
+                    _target = Instantiate(targetPrefab, new Vector3(x, y), Quaternion.identity);
+                    gridArray[x, y].GetComponent<Tile>().isTargetOnTile = true;
+                    targetTile = gridArray[x, y];
+                }
+            }
+        }
+
     }
 
 }

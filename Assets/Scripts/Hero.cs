@@ -9,6 +9,7 @@ public class Hero : MonoBehaviour
     public Rigidbody2D myRigidBody;
     public bool moveToTarget;
     public int nextTileIndex;
+    private Animator animator;
     Vector3 fixDist = new Vector3(-0.5f, 0.5f);
 
 
@@ -19,6 +20,8 @@ public class Hero : MonoBehaviour
         currentTile = gridManager.gridArray[4, 11];
         myRigidBody = GetComponent<Rigidbody2D>();
         moveToTarget = false;
+        animator = GetComponent<Animator>();
+        animator.SetBool("moving", false);
     }
 
     // Update is called once per frame
@@ -34,11 +37,15 @@ public class Hero : MonoBehaviour
             else if (nextTile == gridManager.targetTile)
             {
                 moveToTarget = false;
+                animator.SetBool("moving", false);
             }
             else
             {
+                animator.SetBool("moving", true);
                 Vector3 change = (nextTile.transform.position + fixDist) - transform.position;
                 myRigidBody.MovePosition(transform.position + change.normalized * 3 * Time.fixedDeltaTime);
+                animator.SetFloat("horizontal", change.x);
+                animator.SetFloat("vertical", change.y);
             }
         }
     }
